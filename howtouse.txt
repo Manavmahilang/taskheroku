@@ -32,4 +32,14 @@ TO test various endpoints simply run the script it will display the result in co
 You can change the content in the script to try various data
 
 
+
+https://cute-pear-lemming-wrap.cyclic.app/bank_branches/ABHY0065023
+https://cute-pear-lemming-wrap.cyclic.app/bank_branches/city/RAIPUR
+
+The api is live check above link to try out
+
+
+Time taken to complete till hosting 3 hours
+
+
 Thankyou for any queries you can contact me at manavkumar429@gmail.com
