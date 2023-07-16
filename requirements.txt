@@ -1,0 +1,35 @@
+Python must be installed.
+
+Flask is used to make sure to install Flask using
+ pip install flask 
+
+Open the terminal and go the directory of main.py and run the file
+ once the console says this
+     * Serving Flask app 'main'
+    * Debug mode: on
+    * Running on http://127.0.0.1:5000  
+    Press CTRL+C to quit
+ this means the app is running 
+ To test the api there are two ways 
+
+ 1 -->>> using PostMan  
+ below is the mentioned list of urls to test different routes of the api   
+
+GET Requests
+To fetch all bank branches data: http://127.0.0.1:5000/bank_branches
+To fetch branch details by IFSC code: http://127.0.0.1:5000/bank_branches/IFSC_CODE
+To fetch branch details by branch name: http://127.0.0.1:5000/bank_branches/branch/BRANCH_NAME
+To fetch branch details by city: http://127.0.0.1:5000/bank_branches/city/CITY_NAME
+To fetch branch details by district: http://127.0.0.1:5000/bank_branches/district/DISTRICT_NAME
+To fetch branch details by state: http://127.0.0.1:5000/bank_branches/state/STATE_NAME
+
+POST Request
+TO send a file and display data in console http://127.0.0.1:5000/bank_branches
+
+2 --> using the  testing_the_api file
+
+TO test various endpoints simply run the script it will display the result in console be it error or success message 
+You can change the content in the script to try various data
+
+
+Thankyou for any queries you can contact me at manavkumar429@gmail.com
